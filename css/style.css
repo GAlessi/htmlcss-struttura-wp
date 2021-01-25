@@ -6,7 +6,8 @@
 }
 
 .container{
-    margin: 0 20%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -26,6 +27,9 @@ header{
 /* regole main */
 .column{
     background-color: lightblue;
+    height: 220px;
+    float: left;
+
 }
 
 .title{
@@ -39,16 +43,12 @@ header{
 }
 
 .left,.right{
-    height: 220px;
     width: 18%;
-    float: left;
 }
 
 .middle{
-    height: 220px;
     width: 60%;
     margin: 0 2%;
-    float: left;
 }
 
 .row::after{
