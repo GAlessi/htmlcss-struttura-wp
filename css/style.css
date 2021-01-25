@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin: 0 20%;
+}
+
+header{
+    height: 60px;
+    background-color: pink;
+}
+
+.jumbotron{
+    margin:20px 0;
+    height: 250px;
+    background-color: yellow;
+}
+
+.columns{
+    background-color: lightblue;
+}
+
+.title{
+    height: 40px;
+}
+
+.row{
+    height: 250px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    height: 30px;
+    background-color: purple;
+}
