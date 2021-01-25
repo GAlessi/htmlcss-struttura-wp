@@ -1,3 +1,4 @@
+/* Regole pagina */
 *{
     margin: 0;
     padding: 0;
@@ -8,18 +9,22 @@
     margin: 0 20%;
 }
 
+/* header */
 header{
+    margin-top: 20px;
     height: 60px;
     background-color: pink;
 }
 
+/* prima sezione */
 .jumbotron{
     margin:20px 0;
     height: 250px;
     background-color: yellow;
 }
 
-.columns{
+/* regole main */
+.column{
     background-color: lightblue;
 }
 
@@ -28,11 +33,31 @@ header{
 }
 
 .row{
-    height: 250px;
-    background-color: blue;
     margin-bottom: 10px;
+    background-color: blue;
+    padding: 15px 0;
 }
 
+.left,.right{
+    height: 220px;
+    width: 18%;
+    float: left;
+}
+
+.middle{
+    height: 220px;
+    width: 60%;
+    margin: 0 2%;
+    float: left;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* footer */
 footer{
     margin-top: 10px;
     height: 30px;
