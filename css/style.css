@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-.container{
+.margini{
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 /* header */
@@ -19,7 +19,7 @@ header{
 
 /* prima sezione */
 .jumbotron{
-    margin:20px 0;
+    margin:20px auto;
     height: 250px;
     background-color: yellow;
 }
